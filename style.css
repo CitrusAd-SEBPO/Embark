@@ -458,6 +458,11 @@ p.citrusEmbark__disclaimer {
     padding-top: 40px;
   }
 }
+@media screen and (max-width: 600px) {
+  .citrusEmbark__testTypeRow {
+    margin-left: 10px;
+  }
+}
 @media screen and (max-width: 375px) {
   .citrusEmbark__testCard {
     width: 230px;
