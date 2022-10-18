@@ -66,7 +66,7 @@ p.citrusEmbark__sectionSubtitle {
 .citrus_Embark_carousel {
   width: 100%;
   position: relative;
-  display: flex;
+  display: none;
   justify-content: flex-start;
   overflow: hidden;
 }
@@ -268,6 +268,7 @@ p.citrusEmbark_pov-text__subhead {
 }
 .citrusEmbark__testTypeCard img {
   max-width: 100%;
+  min-height: 190px;
   object-fit: contain;
 }
 .citrusEmbark__testTypeCardTitle {
