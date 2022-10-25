@@ -70,7 +70,12 @@ p.citrusEmbark__sectionSubtitle {
   justify-content: flex-start;
   overflow: hidden;
 }
-
+.citrus_Embark_carousel,
+.citrus_Embark_carousel-inner,
+.citrus_Embark_carousel-item,
+.citrusEmbark__pov-img img {
+  height: 280px;
+}
 .citrus_Embark_carousel
   .citrus_Embark_carousel-inner
   .citrus_Embark_carousel-item {
@@ -93,7 +98,7 @@ p.citrusEmbark__sectionSubtitle {
 .citrusEmbark__pov-img img {
   width: 100%;
   text-align: center;
-  object-fit: contain;
+  object-fit: cover;
 }
 .citrusEmbark_pov-text {
   position: absolute;
@@ -107,7 +112,7 @@ p.citrusEmbark__sectionSubtitle {
   height: 100%;
   align-items: center;
   justify-content: center;
-  top: -5%;
+  /* top: -5%; */
 }
 .citrusEmbark_pov-logo img {
   width: 275px;
@@ -194,8 +199,11 @@ p.citrusEmbark_pov-text__subhead {
 @media screen and (min-width: 922px) and (max-width: 1240px) {
 }
 @media screen and (min-width: 769px) and (max-width: 1240px) {
+  .citrus_Embark_carousel,
+  .citrus_Embark_carousel-inner,
+  .citrus_Embark_carousel-item,
   .citrusEmbark__pov-img img {
-    height: 240px;
+    height: 280px;
     object-fit: cover;
   }
   .citrusEmbark_pov-logo img {
@@ -212,6 +220,12 @@ p.citrusEmbark_pov-text__subhead {
     flex-wrap: wrap;
     justify-content: center;
     flex: 1;
+  }
+  .citrus_Embark_carousel,
+  .citrus_Embark_carousel-inner,
+  .citrus_Embark_carousel-item,
+  .citrusEmbark__pov-img img {
+    height: auto;
   }
   .citrus_Embark_carousel .citrus_Embark_carousel-inner {
     background: #ffd719;
@@ -467,5 +481,8 @@ p.citrusEmbark__disclaimer {
 @media screen and (max-width: 375px) {
   .citrusEmbark__testCard {
     width: 230px;
+  }
+  .citrusEmbark_pov-text {
+    margin-bottom: 30px;
   }
 }
