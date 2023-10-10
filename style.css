@@ -13,7 +13,7 @@
  * Lineto.com, 2020
  */
 
- @font-face {
+@font-face {
   font-family: PetcoCircularTT-Regular;
   src: url(fonts/PetcoCircularTT-Regular.woff2) format("woff2"),
     url(fonts/PetcoCircularTT-Regular.woff) format("woff");
@@ -25,7 +25,7 @@
     url(fonts/PetcoCircularTT-Bold.woff) format("woff");
 }
 
-body{
+body {
   margin: 0;
   padding: 0;
 }
@@ -78,8 +78,8 @@ p.citrusEmbark__sectionSubtitle {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .citrusEmbark__testTypeContainer {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -89,8 +89,8 @@ p.citrusEmbark__sectionSubtitle {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 .citrusEmbark__testType {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 /* POV style */
@@ -543,7 +543,16 @@ p.citrusEmbark__disclaimer {
   p.citrusEmbark__sectionSubtitle {
     padding: 20px 0;
   }
-
+  .citrusEmbark__testCard {
+    width: 250px;
+  }
+  .citrusEmbark__cardBody {
+    width: 210px;
+    margin: auto;
+  }
+  h3.citrusEmbark__cardTitle {
+    margin: 30px 22px 0 22px;
+  }
   /* footer style */
   .citrusEmbark__CTA button,
   .citrusEmbark__footerCTA button {
@@ -554,7 +563,9 @@ p.citrusEmbark__disclaimer {
     text-transform: capitalize;
     text-decoration: underline;
   }
-
+  .citrusEmbark__testTypeRow {
+    justify-content: left;
+  }
   .citrusEmbark__footerRow {
     display: flex;
     flex-direction: column;
