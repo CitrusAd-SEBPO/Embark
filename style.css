@@ -1,3 +1,30 @@
+/* font face add */
+/*
+ * Legal Disclaimer
+ *
+ * These web fonts are licensed exclusively for use on the following:
+ * All domains belonging to Petco
+ *
+ * It is strictly forbidden to download or use these fonts on any other website domain or media.
+ *
+ * While the @font-face statements below may be modified by the client, this
+ * disclaimer may not be removed.
+ *
+ * Lineto.com, 2020
+ */
+
+ @font-face {
+  font-family: PetcoCircularTT-Regular;
+  src: url(fonts/PetcoCircularTT-Regular.woff2) format("woff2"),
+    url(fonts/PetcoCircularTT-Regular.woff) format("woff");
+}
+
+@font-face {
+  font-family: PetcoCircularTT-Bold;
+  src: url(fonts/PetcoCircularTT-Bold.woff2) format("woff2"),
+    url(fonts/PetcoCircularTT-Bold.woff) format("woff");
+}
+
 /* common style */
 .citrusEmbark__Wrapper {
   font-family: "PetcoCircularTT-Regular", arial !important;
@@ -101,6 +128,10 @@ p.citrusEmbark__sectionSubtitle {
   /* top: -5%; */
 }
 
+.citrusEmbark_pov-text__wrapper .citrusEmbark_pov-cta a{
+
+}
+
 .citrusEmbark_pov-logo img {
   width: 275px;
   object-fit: contain;
@@ -139,6 +170,8 @@ p.citrusEmbark_pov-text__subhead {
   background-color: #001952;
   padding: 18px 22px 16px;
   border-radius: 7px;
+  display: block;
+  width: fit-content;
 }
 
 .citrusEmbark_pov-text p.citrusEmbark__disclaimer {
@@ -290,6 +323,7 @@ p.citrusEmbark_pov-text__subhead {
 .citrusEmbark__testTypeRow {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 .citrusEmbark__testTypeCard {
